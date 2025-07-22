@@ -1,0 +1,62 @@
+header {
+    max-width: 1044px;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 1044px;
+    margin: 0 auto;
+}
+button{
+    padding: .8rem 2rem;
+    border-radius: 2rem;
+    background-color: deeppink;
+    border: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: black;
+    margin-right: 1.5rem;
+}
+
+/* banner section strat */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.banner h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+.f-cercal{
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 4em;
+   
+}
+.s-cercal{
+    border-radius: 50%;
+    background-color: blanchedalmond;
+    
+}
+.links{
+    margin:2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
+    padding: 1rem ;
+    background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
+}
